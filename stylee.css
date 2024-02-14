@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgba(235,235,235,255);
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(24,41,87,255);
+}
+.left-nav{
+    padding: 10px 0px;
+    color: white;
+}
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+.right-nav input{
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.left-bar{
+    width: 17%;
+    /* height: 100vh; */
+    /* border: 1px solid red; */
+}
+.right-bar{
+    width: 82%;
+    height: 100vh;
+    border: 1px solid blue;
+}
+.menu-bar{
+    width: 100%;
+}
+.menu-bar ul{
+    width: 100%;
+    list-style-type: none;
+    border-radius: 10px ;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+}
+.nav-link{
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-top: 1px solid rgba(0, 0, 0, 0.482);
+    font-weight: 600;
+    color: black;
+    transition: .3s;
+}
+.nav-link:hover{
+    background-color: orange;
+}
+.hot-detail{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid  rgba(0, 0, 0, 0.482);
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: white;
+}
+.hot-detail h3{
+  font-weight: normal;
+  font-size: 16px;
+}
+.hot-detail p{
+    color: orange;
+}
+.specail-offer{
+    width: 100%;
+}
+.card{
+    width: 100%;
+    border:1px solid rgba(0, 0, 0, 0.482) ;
+    border-radius: 10px;
+    background-color: white;
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    
+}
+.card-head h3{
+    font-weight: normal;
+    font-size: 16px;
+}
+.card-head p{
+    color: orange;
+}
+.card-body{
+    height: 220px;
+    border-top: 1px solid  rgba(0, 0, 0, 0.482);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.482);
+}
+.card-body img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-footer{
+    height: 100px;
+    padding: 10px 15px;
+}
+.card-name h4{
+    font-size: 16px;
+    font-weight: normal;
+}
+.card-star{
+    padding: 10px 0px 10px;
+}
+.card-price{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.new-offer{
+    margin-top: 15px;
+
+}
+.card-offer-item{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.255);
+    padding-top: 10px;
+}
+.offer-img{
+    width: 50%;
+}
+.offer-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.offer-detail{
+    width: 50%;
+}
+.offer-detail{
+    padding-left: 15px;
+}
+.offer-name{
+    margin-top: 23px;
+    font-size: 16px;
+}
+.offer-star{
+    padding: 10px 0px;
+    font-size: 12px;
+}
+.offer-price{
+font-size: 16px;
+}
+.offer-detail .btn{
+    width: 80px;
+    height: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.hero-banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.hero-banner img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-img{
+    width: 450px;
+    height: 100%;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 150px;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-description{
+    position: absolute;
+    width: 580px;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.text-area{
+    margin-left: 30px;
+}
+.text-area h5{
+    color: white;
+    font-size: 20px;
+}
+.text-area h1{
+    color: white;
+    font-size: 60px;
+    margin: 15px 0px;
+}
+.text-area p{
+    color: rgb(196, 196, 196);
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.text-area button{
+    background-color: orange;
+    border: none;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
